@@ -28,7 +28,7 @@ if you already run react-native link react-native-baidu-push-notification, skip 
 2. Append the following lines to `android/settings.gradle`:
    ```
    include ':react-native-baidu-push-notification'
-   project(':react-native-baidu-push-notification').projectDir = new File(rootProject.projectDir, 	'../node_modules/@beesight/react-native-baidu-push-notification/android')
+   project(':react-native-baidu-push-notification').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-baidu-push-notification/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
@@ -75,7 +75,7 @@ import RNPushNotification from "react-native-baidu-push-notification";
 
 // TODO: What to do with the module?
 componentDidMount() {
-	PushNotification.configure({
+    PushNotification.configure({
       popInitialNotification: Platform.select({
         ios: false,
         android: true,
