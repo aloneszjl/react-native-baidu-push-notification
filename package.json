@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidu-push-notification",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "baidu push with react native",
   "main": "index.js",

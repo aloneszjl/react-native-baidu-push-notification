@@ -22,8 +22,8 @@ if you already run react-native link react-native-baidu-push-notification, skip 
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
 
-   - Add `import com.alones.reactnative.baidupush.ReactNativePushNotificationPackage;` to the imports at the top of the file
-   - Add `new ReactNativePushNotificationPackage()` to the list returned by the `getPackages()` method
+   - Add `import com.alones.reactnative.baidupush.RNPushNotificationPackage;` to the imports at the top of the file
+   - Add `new RNPushNotificationPackage()` to the list returned by the `getPackages()` method
 
 2. Append the following lines to `android/settings.gradle`:
    ```
